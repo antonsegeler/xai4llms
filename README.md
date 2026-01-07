@@ -15,13 +15,39 @@ Start by cloning this repository to your local machine or working environment:
 ```bash
 git clone https://github.com/antonsegeler/xai4llms
 ```
-2. **Setup Environment:** Open the `demo_setup.ipynb` notebook and run all cells to install the necessary dependencies and load the model.
+2. **Setup Environment:** Open the `demo.ipynb` notebook and run all cells to install the necessary dependencies and load the model.
 
+The suggested Python Version is 3.12
 
 > **🚀 GPU Recommended:** While we originally planned to run this workshop entirely in Google Colab, the content involves processing Large Language Models. If you have access to a local machine or server with a dedicated GPU, we recommend using it for a smoother and faster experience.
 
+### 🛠️ Getting Started in Colab
+
 
 ---
+
+1.  **Open the Notebook::** 
+- In Colab, go to File > Open notebook > GitHub.
+
+- Paste the URL: https://github.com/antonsegeler/xai4llms
+
+- Select demo.ipynb.
+
+2. **Setup Environment:**
+- Go to Runtime > Change runtime type (or click the RAM/Disk status bar).
+
+- Under Hardware accelerator, select T4 GPU and click Save.
+
+3. **Clone the Repository again:**
+- Open the Colab Terminal (icon in the bottom-left sidebar) and run:
+
+```bash
+git clone https://github.com/antonsegeler/xai4llms
+```
+4. **Set Working Directory**:
+- Insert %cd "/content/xai4llms" before the first code cell (before installing requirements) to ensure the notebook runs in the correct folder:
+
+5. Install the requirements and restart the session
 
 ## 📖 Abstract
 
