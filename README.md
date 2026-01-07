@@ -20,7 +20,6 @@ git clone https://github.com/antonsegeler/xai4llms
 
 > **🚀 GPU Recommended:** While we originally planned to run this workshop entirely in Google Colab, the content involves processing Large Language Models. If you have access to a local machine or server with a dedicated GPU, we recommend using it for a smoother and faster experience.
 
-> **📅 Note:** The full demo code will be pushed to this repository shortly before the start of the session. Please remember to pull the latest changes before we begin.
 
 ---
 
